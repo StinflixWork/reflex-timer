@@ -1,0 +1,22 @@
+@use 'common/reset';
+
+:root {
+	--bg-main: #003049;
+	--bg-secondary: #669BBC;
+	--text-main: #fdf0d5;
+	--text-secondary: #780000;
+
+	// buttons
+	--bg-button-hover: #004a6a;
+	--bg-button-active: #002033;
+
+
+	--font-quicksand: 'Quicksand';
+	--font-handjet: 'Handjet';
+}
+
+body {
+	background-color: var(--bg-main);
+	color: var(--text-main);
+	font-family: var(--font-quicksand), sans-serif;
+}
